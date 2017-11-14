@@ -19,3 +19,40 @@ body{
   font-size: 1em;
   font-family: sans-serif;
 }
+
+#seccion-contenido .contenedorTabs{
+    width: 100%;
+    font-size: 1.5em;
+    border-bottom: #fcb425 solid 1px;
+}
+
+.tabs{
+    color: #fff;
+    background-color: #fcb425;
+    border-radius: 5%;
+    border-bottom: none;
+    padding: 10px;
+    width: 100px;
+}
+
+#seccion-contenido div img{
+  width: 700px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: solid black;
+}
+
+.contenedorTabs li{
+
+}
+
+.tab{
+  border-radius: 5%;
+  border-bottom: none;
+  padding: 10px;
+  width: 100px;
+}
+
+#seccion-contenido {
+  display: inline-block;
+}
