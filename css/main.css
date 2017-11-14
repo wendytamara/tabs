@@ -43,7 +43,8 @@ body{
 }
 
 .contenedorTabs li{
-
+    list-style: none;
+    display: inline-block;
 }
 
 .tab{
@@ -53,6 +54,11 @@ body{
   width: 100px;
 }
 
-#seccion-contenido {
+.divImg, .divTexto{
   display: inline-block;
+
+}
+
+.divTexto{
+  
 }

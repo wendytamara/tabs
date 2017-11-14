@@ -30,7 +30,7 @@ var cargarPagina = function() {
     desayuno.style.display = "none";
     almuerzo.style.display = "none";
     cena.style.display = "none";
-    
+
     var elementosTabs = document.getElementsByClassName("tabs");
     for (var i = 0; i < elementosTabs.length; i++) {
       elementosTabs[i].addEventListener("click", mostrarOcultar);
